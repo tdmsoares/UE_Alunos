@@ -1,0 +1,22 @@
+CREATE TABLE [PesquisaRápidaAlunos] (
+  [Código] AUTOINCREMENT,
+  [Nome] VARCHAR (255),
+  [Sexo] VARCHAR (1),
+  [Data de Nascimento] DATETIME ,
+  [Inclusão] BIT ,
+  [Liminar] BIT ,
+  [Ciclo] VARCHAR (255),
+  [Período] VARCHAR (255),
+  [Sala] BYTE ,
+  [Turma] VARCHAR (255),
+  [CódigoSala] LONG ,
+  [Status] VARCHAR (255),
+  [Documento] LONGBINARY ,
+  [GDAE] VARCHAR (255),
+  [Bolsa Família] BIT ,
+  [SISEDUC] VARCHAR (255),
+  [INEP] VARCHAR (255),
+  [Certidão de Nascimento] VARCHAR (255),
+  [Ano] LONG ,
+  [Alerta_Retirada] VARCHAR (255)
+)
